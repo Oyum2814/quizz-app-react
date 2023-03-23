@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main{
+    
+    background: linear-gradient(to bottom,rgba(0,0,0,0),#020230) ,
+    url("./assets/millionare.jpeg") center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.moneyListItem.active{
+    background-color:#fc9632;
+}
+.answer.active {
+    background:#f0b024;
+}
+
+.answer.correct{
+    animation:correct 3s ease forwards;
+}
+
+@keyframes correct{
+    0%,
+    22%,
+    42%{
+        background:#f0b024;
+    }
+    20%,40%,60%{
+        background:linear-gradient(#013eb8,#021e54);
+    }
+    62%,100%{
+        background:green;
+    }
+}
+
+.answer.wrong{
+    animation:wrong 3s ease forwards;
+}
+
+@keyframes wrong{
+    0%,
+    22%,
+    42%{
+        background:#f0b024;
+    }
+    20%,40%,60%{
+        background:linear-gradient(#013eb8,#021e54);
+    }
+    62%,100%{
+        background:crimson;
+    }
+}

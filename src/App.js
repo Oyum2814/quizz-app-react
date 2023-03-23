@@ -406,14 +406,14 @@ function App() {
                 <li
                   className={
                     questionNumber === m.id
-                      ? "flex items-center p-4 rounded-[5px] moneyListItem active"
-                      : "flex items-center p-4 rounded-[5px] moneyListItem "
+                      ? "flex items-center p-2 rounded-[5px] moneyListItem active"
+                      : "flex items-center p-2 rounded-[5px] moneyListItem "
                   }
                 >
-                  <span className="text-l font-normal w-[30%] moneyListItemNumber">
+                  <span className="text-lg font-normal w-[30%] moneyListItemNumber">
                     {m.id}
                   </span>
-                  <span className="text-xl font-medium moneyListItemAmount">
+                  <span className="text-lg font-medium moneyListItemAmount">
                     {m.amount}
                   </span>
                 </li>

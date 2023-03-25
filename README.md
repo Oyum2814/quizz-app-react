@@ -2,6 +2,12 @@
 <img width="1440" alt="Screen Shot 2023-03-23 at 7 33 03 PM" src="https://user-images.githubusercontent.com/72745185/227228256-4e0dab67-2d4a-4729-b487-2dcd295ea5af.png">
 <img width="1440" alt="Screen Shot 2023-03-23 at 7 34 46 PM" src="https://user-images.githubusercontent.com/72745185/227228591-c5f700b4-8914-4e9f-be3d-25bedfacd1a4.png">
 
+# Improvements to be made 
+* Make the design responsive so that it can be used via mobile and other devices.
+* Provide for better fetching of questions from an API implementing Database.
+* Improve sounds, add other sounds for selecting an option
+* Display the right answer when a user chooses a wrong one
+* Create an ending to the game, after the final question gets answered correctly.
 
 
 # Getting Started with Create React App
